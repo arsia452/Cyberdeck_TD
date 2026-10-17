@@ -1,10 +1,12 @@
 
-# Cyberdeck TD Project
+# Cyberdeck TD Project (10/16/2026)
 
 ## Overview + goal of project
 Cyberdeck Project: The main goal is to create a "cyberdeck"; essentially a laptop with personalized functionality, based around the LattePanda Mu compute module.
 
-## Components:
+---
+
+## Main Systems:
 
 
 ### LattePanda Mu Custom Carrier Board:
@@ -33,9 +35,32 @@ The cyberdeck is to include a built in (~100Wh) battery with safe (but fast) pow
 The cyberdeck is to integrate a 11.6" touchscreen in the housing as well as optional external display.
 - DFR eDP 11.6" touchscreen.
 
+---
+
+## Main Components
+(Excluding passives [Capacitors, diodes, etc.] and materials [PLA, aluminum, solder etc.])
+- LattePanda Mu
+- LattePanda Mu Carrier Board Lite (for development and testing purposes)
+- DFR 11.6" eDP Touchscreen
+
+
+---
+
 ## Current State of Development:
+
+### Custom Carrier Board:
+The carrier board is currently in development. Current step is routing high-speed traces. This is the final main step before peer review.
+
+### Custom Keyboard
+The keyboard PCB is ready for fabrication as soon as the financials make sense. Some other minor modifications may be made based on any lessons learned from the carrier board, but the design is essentially finalized. The MCU, trackpad module (TPS43)
+
+---
 
 ## Currently in Development:
 
+---
+
 ## Future of Development:
+
+---
 
