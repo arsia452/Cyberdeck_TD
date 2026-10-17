@@ -46,7 +46,9 @@ The cyberdeck is to be enclosed in an enclosure no larger in footprint than a st
 Footnotes:
 
 (1) Though, that is pushing the capabilities of the compute module itself
+
 (2) Excluding thickness; that is for a later revision and would require a custom cooling solution, new battery design, and various other technical capabilities that are presently out of reach.
+
 (3) The use of PLA may shift to ABS down the line if the capabilities introduce themselves, but the Bambu Labs A1 I have will not reliably print ABS in open-air environments as ABS is very prone to stringing and deformation in atmospheric conditions. This applies to all mentions of PLA in this project.
 
 ---
