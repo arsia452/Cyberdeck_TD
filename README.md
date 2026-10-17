@@ -82,6 +82,7 @@ The keyboard PCB is ready for fabrication as soon as the financials make sense. 
 
 ### Enclosure
 Cooling will be essential, as the battery, compute module and screen will be in the same enclosure in very close proximity to each other. Using an aluminum subframe to diffuse the heat is a possibility, but will require further investigation and development time. The enclosure itself is the least developed portion of the project thus far. The only thing that it is right now is a couple of STEP models in Fusion360 haphazardly slapped into a shape. The main idea is a five piece enclosure consisting of: faceplate (orange anodized aluminum), left side bracket (orange anodized aluminum), right side bracket (orange anodized aluminum), rear main chassis (black 3D printed PLA), front main chassis (black 3D printed PLA)*.
+
 The keyboard enclosure has been mocked up, but fastening the keyboard enclosure parts together and mounting the keyboard to the main enclosure are still unsolved challenges at this time. Potential approaches for the fastening problem include screws with heat-set inserts, flexible plastic clips, panel clips, snap together clips, or others. The keyboard is currently one massive assembly, but this is infeasible for the 3D printer that I own, and thus must be redesigned from the ground up. A 2-piece assembly is ideal, but a 3-piece assembly will offer more mechanisms to fasten the components together.
 
 Notes: 
