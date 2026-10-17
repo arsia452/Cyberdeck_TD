@@ -44,6 +44,7 @@ The cyberdeck is to be enclosed in an enclosure no larger in footprint than a st
 - Custom keyboard enclosure made of 3D printed PLA | Will be achieved using home 3D printing capabilities and heat-set inserts to provide increased rigidity.
 
 Footnotes:
+
 (1) Though, that is pushing the capabilities of the compute module itself
 (2) Excluding thickness; that is for a later revision and would require a custom cooling solution, new battery design, and various other technical capabilities that are presently out of reach.
 (3) The use of PLA may shift to ABS down the line if the capabilities introduce themselves, but the Bambu Labs A1 I have will not reliably print ABS in open-air environments as ABS is very prone to stringing and deformation in atmospheric conditions. This applies to all mentions of PLA in this project.
@@ -81,12 +82,13 @@ The carrier board is currently in development. Current step is routing high-spee
 The keyboard PCB is ready for fabrication as soon as the financials make sense. Some other minor modifications may be made based on any lessons learned from the carrier board as development of the two is parallel, but the design is essentially finalized. The MCU, trackpad module, and key switches are currently in the mail (as of 10/16/2026) for further hands-on testing before finalizing the PCB order to ensure proper fit, function, and pinouts as it relates to the MCU _before_ it is set in stone (or fiberglass and copper, I suppose).
 
 ### Enclosure
-Cooling will be essential, as the battery, compute module and screen will be in the same enclosure in very close proximity to each other. Using an aluminum subframe to diffuse the heat is a possibility, but will require further investigation and development time. The enclosure itself is the least developed portion of the project thus far. The only thing that it is right now is a couple of STEP models in Fusion360 haphazardly slapped into a shape. The main idea is a five piece enclosure consisting of: faceplate (orange anodized aluminum), left side bracket (orange anodized aluminum), right side bracket (orange anodized aluminum), rear main chassis (black 3D printed PLA), front main chassis (black 3D printed PLA)*.
+Cooling will be essential, as the battery, compute module and screen will be in the same enclosure in very close proximity to each other. Using an aluminum subframe to diffuse the heat is a possibility, but will require further investigation and development time. The enclosure itself is the least developed portion of the project thus far. The only thing that it is right now is a couple of STEP models in Fusion360 haphazardly slapped into a shape. The main idea is a five piece enclosure consisting of: faceplate (orange anodized aluminum), left side bracket (orange anodized aluminum), right side bracket (orange anodized aluminum), rear main chassis (black 3D printed PLA), front main chassis (black 3D printed PLA) (1)
 
 The keyboard enclosure has been mocked up, but fastening the keyboard enclosure parts together and mounting the keyboard to the main enclosure are still unsolved challenges at this time. Potential approaches for the fastening problem include screws with heat-set inserts, flexible plastic clips, panel clips, snap together clips, or others. The keyboard is currently one massive assembly, but this is infeasible for the 3D printer that I own, and thus must be redesigned from the ground up. A 2-piece assembly is ideal, but a 3-piece assembly will offer more mechanisms to fasten the components together.
 
-Notes: 
-* Ideally, one chassis part is preferable, but this is likely unfeasible due to home 3D printing size constraints. I will see what I can make happen. Same note as before about PLA/ABS.
+Footnotes: 
+
+(1) Ideally, one chassis part is preferable, but this is likely unfeasible due to home 3D printing size constraints. I will see what I can make happen. Same note as before about PLA/ABS.
 
 ---
 
