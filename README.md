@@ -1,10 +1,9 @@
----
+
 # Cyberdeck_TD
----
+
 ## Overview + goal of project
 Cyberdeck Project: Create a cyberdeck based on the LattePanda Mu with a custom carrier board, custom keyboard, built in ~100Wh battery and 11.6" touchscreen.
 
----
 ## Components:
 Keyboard:
 - Connect over both Bluetooth and USB (via nRF52840).
@@ -24,13 +23,9 @@ Battery:
 11.6" Touchscreen:
 - DFR eDP 11.6" touchscreen.
 
----
 ## Current State of Development:
 
----
 ## Currently in Development:
 
----
 ## Future of Development:
 
----
