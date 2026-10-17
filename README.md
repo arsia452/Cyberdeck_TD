@@ -43,7 +43,7 @@ The cyberdeck is to be enclosed in an enclosure no larger in footprint than a st
 - Custom main enclosure made of machined aluminum and FDM-based 3D printed PLA (3) | Will be achieved with a mixture of outsourced machining capabilities (PCBWay, JLCPCB, etc.) for the aluminum and home 3D printing
 - Custom keyboard enclosure made of 3D printed PLA | Will be achieved using home 3D printing capabilities and heat-set inserts to provide increased rigidity.
 
-Footnotes:
+### Footnotes:
 
 (1) Though, that is pushing the capabilities of the compute module itself
 
@@ -75,26 +75,41 @@ Excludes passives (Capacitors, diodes, etc.) and materials (PLA, aluminum, solde
 
 ---
 
-## Current State of Development:
+## Currently Developed:
 
 ### Custom Carrier Board:
-The carrier board is currently in development. Current step is routing high-speed traces. This is the final main step before peer review. The ports, SODIMM slot, RTC battery, and battery screw terminal placements are more or less finalized. There may be slight shifts as the development of the enclosure progresses in order to accommodate the screen, keyboard, and battery. 
+The carrier board is currently in development. Current step is routing high-speed traces. This is the final main step before peer review. The ports, SODIMM slot, RTC battery, and battery screw terminal placements are more or less finalized. There may be slight shifts as the development of the enclosure progresses in order to accommodate the screen, keyboard, and battery.
 
 ### Custom Keyboard:
-The keyboard PCB is ready for fabrication as soon as the financials make sense. Some other minor modifications may be made based on any lessons learned from the carrier board as development of the two is parallel, but the design is essentially finalized. The MCU, trackpad module, and key switches are currently in the mail (as of 10/16/2026) for further hands-on testing before finalizing the PCB order to ensure proper fit, function, and pinouts as it relates to the MCU _before_ it is set in stone (or fiberglass and copper, I suppose).
+The keyboard PCB is ready for fabrication as soon as the financials make sense. Some other minor modifications may be made based on any lessons learned from the carrier board as development of the two is parallel, but the design is essentially finalized.
 
 ### Enclosure
-Cooling will be essential, as the battery, compute module and screen will be in the same enclosure in very close proximity to each other. Using an aluminum subframe to diffuse the heat is a possibility, but will require further investigation and development time. The enclosure itself is the least developed portion of the project thus far. The only thing that it is right now is a couple of STEP models in Fusion360 haphazardly slapped into a shape. The main idea is a five piece enclosure consisting of: faceplate (orange anodized aluminum), left side bracket (orange anodized aluminum), right side bracket (orange anodized aluminum), rear main chassis (black 3D printed PLA), front main chassis (black 3D printed PLA) (1)
+The enclosure itself is the least developed portion of the project thus far. The only thing that it is right now is a couple of STEP models in Fusion360 haphazardly slapped into a shape. 
 
 The keyboard enclosure has been mocked up, but fastening the keyboard enclosure parts together and mounting the keyboard to the main enclosure are still unsolved challenges at this time. Potential approaches for the fastening problem include screws with heat-set inserts, flexible plastic clips, panel clips, snap together clips, or others. The keyboard is currently one massive assembly, but this is infeasible for the 3D printer that I own, and thus must be redesigned from the ground up. A 2-piece assembly is ideal, but a 3-piece assembly will offer more mechanisms to fasten the components together.
 
-Footnotes: 
+### Footnotes: 
 
 (1) Ideally, one chassis part is preferable, but this is likely unfeasible due to home 3D printing size constraints. I will see what I can make happen. Same note as before about PLA/ABS.
 
 ---
 
 ## Currently in Development:
+
+### Custom Carrier Board:
+The battery charging circuitry is yet to be tested, but this will be tested on a standalone PCB with the battery pack I intend to use well before the custom carrier board is finalized for production to ensure that there is no... expulsion of excited electrons and/or lithium due to an incorrect understanding of power-path battery charging and high-side load switching.
+
+### Custom Keyboard:
+The MCU, trackpad module, and key switches are currently in the mail (as of 10/16/2026) for further hands-on testing before finalizing the PCB order to ensure proper fit, function, and pinouts as it relates to the MCU _before_ it is set in stone (or fiberglass and copper, I suppose).
+
+### Enclosure
+Cooling will be essential, as the battery, compute module and screen will be in the same enclosure in very close proximity to each other. Using an aluminum subframe to diffuse the heat is a possibility, but will require further investigation and development time. The main idea is a five piece enclosure consisting of: faceplate (black anodized aluminum), left side bracket (orange anodized aluminum), right side bracket (orange anodized aluminum), rear main chassis (black 3D printed PLA), front main chassis (black 3D printed PLA) (1)
+
+The keyboard is currently one massive assembly, but this is infeasible for the 3D printer that I own, and thus must be redesigned from the ground up. A 2-piece assembly is ideal for rigidity and simplicity, but a 3-piece assembly will offer more mechanisms to fasten the components together, smaller prints for faster iterative design efforts, and overall more options for design. The 3-piece design is more likely. Fastening the keyboard enclosure parts together and mounting the keyboard to the main enclosure are still unsolved challenges at this time. Potential approaches for the fastening problem include screws with heat-set inserts, flexible plastic clips, panel clips, snap together clips, or others. 3D modeling is not yet something I am very good at, so this will be a good chance to improve my skills in a useful and fun way. Potential approaches to the mounting issue are rails, slots, or grooves on the main enclosure that the keyboard slides into, magnets, or others.
+
+### Footnotes: 
+
+(1) Ideally, one main chassis is preferable for the sake of rigidity and solid construction feel, but this is likely unfeasible due to home 3D printing size constraints. I will see what I can make happen. Same note as before about PLA/ABS.
 
 ---
 
