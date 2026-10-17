@@ -36,17 +36,17 @@ The cyberdeck is to include a built in (~100Wh) battery with safe (but fast) pow
 ### 11.6" Touchscreen:
 The cyberdeck is to integrate a 11.6" touchscreen in the housing as well as optional external display.
 - Built-in screen | Will be achieved with a DFRobot eDP 11.6" touchscreen to allow for "Microsoft Surface/iPad"-esque capabilities
-- External optional display | Will be achieved through HDMI port and software options to allow for mirroring or second monitor extension*
+- External optional display | Will be achieved through HDMI port and software options to allow for mirroring or second monitor extension (1)
 
 ### Enclosure:
-The cyberdeck is to be enclosed in an enclosure no larger in footprint than a standard laptop
-- Custom main enclosure made of machined aluminum and FDM-based 3D printed PLA** | Will be achieved with a mixture of outsourced machining capabilities (PCBWay, JLCPCB, etc.) for the aluminum and home 3D printing
-- Custom keyboard enclosure made of 3D printed PLA** | Will be achieved using home 3D printing capabilities and heat-set inserts to provide increased rigidity.
+The cyberdeck is to be enclosed in an enclosure no larger in footprint than a standard laptop (2)
+- Custom main enclosure made of machined aluminum and FDM-based 3D printed PLA (3) | Will be achieved with a mixture of outsourced machining capabilities (PCBWay, JLCPCB, etc.) for the aluminum and home 3D printing
+- Custom keyboard enclosure made of 3D printed PLA | Will be achieved using home 3D printing capabilities and heat-set inserts to provide increased rigidity.
 
 Footnotes:
-* Though, that is pushing the capabilities of the compute module itself
-** Excluding thickness; that is for a later revision and would require a custom cooling solution, new battery design, and various other technical capabilities that are presently out of reach. 
-*** The use of PLA may shift to ABS down the line if the capabilities introduce themselves, but the Bambu Labs A1 I have will not reliably print ABS in open-air environments as ABS is very prone to stringing and deformation in atmospheric conditions.
+(1) Though, that is pushing the capabilities of the compute module itself
+(2) Excluding thickness; that is for a later revision and would require a custom cooling solution, new battery design, and various other technical capabilities that are presently out of reach.
+(3) The use of PLA may shift to ABS down the line if the capabilities introduce themselves, but the Bambu Labs A1 I have will not reliably print ABS in open-air environments as ABS is very prone to stringing and deformation in atmospheric conditions. This applies to all mentions of PLA in this project.
 
 ---
 
