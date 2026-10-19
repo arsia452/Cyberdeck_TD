@@ -1,4 +1,4 @@
-# Cyberdeck TD Project (10/16/2026)
+# Cyberdeck TD Project
 
 ## Overview + goal of project
 Cyberdeck Project: The main goal is to create a "cyberdeck"; essentially a laptop with personalized functionality, based around the LattePanda Mu compute module.
