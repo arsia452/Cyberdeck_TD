@@ -78,7 +78,7 @@ Excludes passives (Capacitors, diodes, etc.) and materials (PLA, aluminum, solde
 ## Currently Developed:
 
 ### Custom Carrier Board:
-The carrier board is currently in development. Current step is routing high-speed traces. This is the final main step before peer review. The ports, SODIMM slot, RTC battery, and battery screw terminal placements are more or less finalized. There may be slight shifts as the development of the enclosure progresses in order to accommodate the screen, keyboard, and battery.
+The carrier board is currently in development. It is now in the final main step; peer review. The ports, SODIMM slot, RTC battery, and battery screw terminal placements are more or less finalized. There may be slight shifts as the development of the enclosure progresses in order to accommodate the screen, keyboard, and battery. The carrier PCB may or may not end up including audio, as I am unsure if the I2S built into the module actually works. Last I heard, it was still in development by DFRobot, so I may need to use USB audio or simply forego internal audio altogether, though that is not ideal.
 
 ### Custom Keyboard:
 The keyboard PCB is ready for fabrication as soon as the financials make sense. Some other minor modifications may be made based on any lessons learned from the carrier board as development of the two is parallel, but the design is essentially finalized.
@@ -97,7 +97,7 @@ The keyboard enclosure has been mocked up, but fastening the keyboard enclosure 
 ## Currently in Development:
 
 ### Custom Carrier Board:
-The battery charging circuitry is yet to be tested, but this will be tested on a standalone PCB with the battery pack I intend to use well before the custom carrier board is finalized for production to ensure that there is no... expulsion of excited electrons and/or lithium due to an incorrect understanding of power-path battery charging and high-side load switching.
+The battery charging circuitry is yet to be tested, but this will be tested on a standalone PCB with the battery pack I intend to use well before the custom carrier board is finalized for production to ensure that there is no... expedited expulsion of excited electrons and/or lithium due to an incorrect understanding of power-path battery charging and high-side load switching.
 
 ### Custom Keyboard:
 The MCU, trackpad module, and key switches are currently in the mail (as of 10/16/2026) for further hands-on testing before finalizing the PCB order to ensure proper fit, function, and pinouts as it relates to the MCU _before_ it is set in stone (or fiberglass and copper, I suppose).
