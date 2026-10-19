@@ -7243,10 +7243,6 @@
 		(uuid "3163f598-885f-4028-909f-3be246310ac1")
 	)
 	(no_connect
-		(at 351.79 264.16)
-		(uuid "3301956b-a4a8-4aad-9bf0-575f0433966b")
-	)
-	(no_connect
 		(at 270.51 190.5)
 		(uuid "39dac926-9c01-4734-829e-50ba25a185a9")
 	)
@@ -7311,10 +7307,6 @@
 		(uuid "56f801fd-36d4-4349-9db7-64010a1a4c10")
 	)
 	(no_connect
-		(at 351.79 269.24)
-		(uuid "593e0b75-c8a3-4dd2-a5cd-da1fea55a01c")
-	)
-	(no_connect
 		(at 270.51 203.2)
 		(uuid "5c2bad1c-6522-48d2-83ca-6d0075d1f26b")
 	)
@@ -7361,10 +7353,6 @@
 	(no_connect
 		(at 270.51 71.12)
 		(uuid "847a17cd-08a4-4961-b9b8-83c891bfcf04")
-	)
-	(no_connect
-		(at 351.79 266.7)
-		(uuid "8554f0f1-b8a1-402d-b568-59aea2d22904")
 	)
 	(no_connect
 		(at 351.79 283.21)
@@ -7659,6 +7647,16 @@
 			(type default)
 		)
 		(uuid "176f67c7-fd73-441b-a0ca-54e2041c3311")
+	)
+	(wire
+		(pts
+			(xy 351.79 266.7) (xy 356.87 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17c46930-2d9c-48d3-a773-aacb29dc0128")
 	)
 	(wire
 		(pts
@@ -7962,6 +7960,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 269.24) (xy 356.87 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c2857aa-a927-472f-b8ff-345f736d7a68")
+	)
+	(wire
+		(pts
 			(xy 309.88 44.45) (xy 309.88 55.88)
 		)
 		(stroke
@@ -8039,6 +8047,16 @@
 			(type default)
 		)
 		(uuid "6d916e8b-fff4-4448-bf11-969c760651c9")
+	)
+	(wire
+		(pts
+			(xy 351.79 264.16) (xy 356.87 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dd59633-e0b8-4d6b-a84a-59f35af05e38")
 	)
 	(wire
 		(pts
@@ -8922,24 +8940,46 @@
 			)
 		)
 	)
-	(global_label "3V3"
+	(global_label "FCLK"
 		(shape input)
-		(at 415.29 332.74 180)
+		(at 356.87 266.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "6cbcd45f-f77e-420b-a945-522119256bbf")
+		(uuid "79cdcd90-b9ee-4565-9063-c1f9e7cc227a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 408.7972 332.74 0)
+			(at 364.5119 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AUDIO"
+		(shape input)
+		(at 356.87 269.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "85e93744-c847-437c-8be0-40e493ecdbe1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 365.4796 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8957,6 +8997,28 @@
 		(uuid "8c11dd71-7c00-4745-9b2e-405f3fd26aa1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 481.5333 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BCLK"
+		(shape input)
+		(at 356.87 264.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c8386b9-fb35-4c67-8e48-3ac0988c1c27")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 364.6933 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10963,6 +11025,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDC")
+		(at 415.29 332.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19480ae6-1c2d-4ca4-96cc-fb6c1c2ed536")
+		(property "Reference" "#PWR0186"
+			(at 417.83 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 411.48 332.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 415.29 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 415.29 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 415.29 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d91d2cd9-82c2-4686-9d84-08a56958223d")
+		)
+		(instances
+			(project "Cyberdeck_TD_Carrier"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/6eee02c2-78c9-4e83-9ccf-e0f7690b57bf"
+					(reference "#PWR0186")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 406.4 341.63 180)
 		(unit 1)
@@ -11262,7 +11391,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
 			(at 410.21 314.96 0)
 			(effects
 				(font

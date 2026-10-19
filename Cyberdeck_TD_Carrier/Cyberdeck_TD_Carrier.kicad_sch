@@ -2032,7 +2032,7 @@
 			)
 		)
 		(instances
-			(project "[DFR1142]Lite Carrier for LattePanda Mu"
+			(project "Cyberdeck_TD_Carrier"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
 					(page "10")
 				)
@@ -2954,7 +2954,7 @@
 			)
 		)
 		(instances
-			(project "[DFR1142]Lite Carrier for LattePanda Mu"
+			(project "Cyberdeck_TD_Carrier"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
 					(page "2")
 				)
@@ -3116,7 +3116,7 @@
 			)
 		)
 		(instances
-			(project "[DFR1142]Lite Carrier for LattePanda Mu"
+			(project "Cyberdeck_TD_Carrier"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
 					(page "4")
 				)
@@ -3198,7 +3198,7 @@
 			)
 		)
 		(instances
-			(project "[DFR1142]Lite Carrier for LattePanda Mu"
+			(project "Cyberdeck_TD_Carrier"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
 					(page "9")
 				)
@@ -3410,7 +3410,7 @@
 			)
 		)
 		(instances
-			(project "[DFR1142]Lite Carrier for LattePanda Mu"
+			(project "Cyberdeck_TD_Carrier"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
 					(page "8")
 				)
@@ -3522,7 +3522,7 @@
 			)
 		)
 		(instances
-			(project "[DFR1142]Lite Carrier for LattePanda Mu"
+			(project "Cyberdeck_TD_Carrier"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
 					(page "6")
 				)
@@ -3724,7 +3724,7 @@
 			)
 		)
 		(instances
-			(project "[DFR1142]Lite Carrier for LattePanda Mu"
+			(project "Cyberdeck_TD_Carrier"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
 					(page "5")
 				)
