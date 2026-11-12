@@ -210,7 +210,7 @@ The keyboard enclosure has been mocked up, but fastening the keyboard enclosure 
 The battery charging circuitry is yet to be tested, but this will be tested on a standalone PCB with the battery pack I intend to use well before the custom carrier board is finalized for production to ensure that there is no... expedited expulsion of excited electrons and/or lithium due to an incorrect understanding of power-path battery charging and high-side load switching.
 
 ### Custom Keyboard:
-The MCU, trackpad module, and key switches are currently in the mail (as of 10/16/2026) for further hands-on testing before finalizing the PCB order to ensure proper fit, function, and pinouts as it relates to the MCU _before_ it is set in stone (or fiberglass and copper, I suppose).
+The MCU, trackpad module, and key switches have officially arrived for further hands-on testing before finalizing the PCB order to ensure proper fit, function, and pinouts as it relates to the MCU _before_ it is set in stone (or fiberglass and copper, I suppose). Currently, ZMK is being tested on an RP2350 to ensure that there is a baseline understanding of how to use ZMK before I attempt to use it in the final product.
 
 ### Enclosure
 Cooling will be essential, as the battery, compute module and screen will be in the same enclosure in very close proximity to each other. Using an aluminum subframe to diffuse the heat is a possibility, but will require further investigation and development time. The main idea is a five piece enclosure consisting of: faceplate (black anodized aluminum), left side bracket (orange anodized aluminum), right side bracket (orange anodized aluminum), rear main chassis (black 3D printed PLA), front main chassis (black 3D printed PLA) (1)
