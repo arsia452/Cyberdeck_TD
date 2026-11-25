@@ -16,6 +16,7 @@ All in one area  (<0.127mm skew) (0.1704mm trace width):
 [66.8870mm] total length
 
 =-=-=-=-=-=-=- M-key  -=-=-=-=-=-=-=
+
 All in one area  (<0.127mm skew) (0.1704mm trace width):
 - CON_PCIE_TX_1
 [0.0000mm] + [0.0000mm] = [0.0000mm] total skew
@@ -30,6 +31,7 @@ All in one area  (<0.127mm skew) (0.1704mm trace width):
 [149.2008mm] total length
 
 =-=-=-=-=-=-=- GbE  -=-=-=-=-=-=-=
+
 All in one area  (<0.127mm skew) (0.1704mm trace width):
 - GbE_PCIe_TX 
 [0.0055mm] + [0.0000mm] = [0.0055mm] total skew
@@ -43,7 +45,8 @@ All in one area  (<0.127mm skew) (0.1704mm trace width):
 [0.0005mm] total skew
 [52.5019mm] total length
 
- =-=-=-=-=-=-=- HDMI  -=-=-=-=-=-=-=
+=-=-=-=-=-=-=- HDMI  -=-=-=-=-=-=-=
+ 
 All in one area (0.10 - 0.15mm skew with pairs also roughly all the same length) (0.1704mm trace width):
 
 The brackets below are in order from HDMI connector to Mu and all of the sub-traces in between the passives.
@@ -65,6 +68,7 @@ The brackets below are in order from HDMI connector to Mu and all of the sub-tra
 [3.5170mm] + [4.1919mm] + [4.1763mm] + [94.2153mm] = [106.1005] total length
 
 =-=-=-=-=-=-=- USB3.2  -=-=-=-=-=-=-=
+
 All in one area  (<0.10mm skew) (0.1704mm trace width):
 - HSIO_0_TX
 [0.0100mm] + [0.0000mm] + [0.0000mm] = [0.0100mm] total skew
@@ -91,12 +95,14 @@ All in one area  (<0.10mm skew) (0.1704mm trace width):
 [3.4665mm] + [52.8293mm] = [56.2958mm] total length
 
 =-=-=-=-=-=-=- E-key USB  -=-=-=-=-=-=-=
+
 (<0.10mm skew) (0.1704mm trace width):
 - USB_2_P7
 [0.0000mm] total skew
 [79.0188mm] total length
 
 =-=-=-=-=-=-=- USB2.0  -=-=-=-=-=-=-=
+
 All in one area  (<0.10mm skew (0.1704mm trace width)):
 - CON_USB2_D
 [0.0000mm] total skew
