@@ -1,4 +1,30 @@
-### Carrier Board Length Matching:
+# Technical Details
+This file contains anything I deem "too technical" for the README.
+The README should be something with a high-level overview and justify my use of certain processes/components. This document will go into greater depth about the exact technical details of certain decisions and list more granular parts choices and their justifications.
+
+## Main Components
+Excludes passives (Capacitors, diodes, etc.) and materials (PLA, aluminum, solder etc.)
+- Main Compute Module | LattePanda Mu
+- Development Carrier Board | DFRobot LattePanda Mu Carrier Board Lite (for development and testing purposes)
+- Screen | DFRobot 11.6" eDP Touchscreen
+- Keyboard PCB | Custom PCB
+- Carrier Board PCB | Custom PCB
+- Trackpad Module | Azoteq TPS43 
+- Keyboard MCU | MDBT50Q-1MV2 (Nordic nRF52840 based SoC)
+- Key Switches | Kailh Choc Blue V2
+- Keycaps | Undetermined
+- Enclosures | Custom designed multi-piece aluminum and PLA construction
+- Wi-Fi card | Intel BE200 Wi-Fi 7 and Bluetooth 5.4
+- Powerpath Charging | Analog Devices LTC4162-L42 IC
+- USB-C Power Delivery | WCH CH224K IC for 20V input
+- 3.3V and 5V regulation | Silergy SY8253ADC IC
+- Gigabit Ethernet | Realtek RTL8111H-CG
+- Sound | UNIMPLEMENTED
+
+
+---
+
+## Carrier Board Length Matching:
 
 =-=-=-=-=-=-=- E-key  -=-=-=-=-=-=-=
 
