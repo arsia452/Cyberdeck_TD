@@ -1,6 +1,4 @@
 ### Carrier Board Length Matching:
-=-=-=-=-=-=-=- Length Matching -=-=-=-=-=-=-=
-Order of precedence:
 
 =-=-=-=-=-=-=- E-key  -=-=-=-=-=-=-=
 All in one area  (<0.127mm skew) (0.1704mm trace width):
