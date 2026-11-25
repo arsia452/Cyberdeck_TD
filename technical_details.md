@@ -1,6 +1,7 @@
 # Technical Details
-This file contains anything I deem "too technical" for the README.
-The README should be something with a high-level overview and justify my use of certain processes/components. This document will go into greater depth about the exact technical details of certain decisions and list more granular parts choices and their justifications.
+This file contains anything I deem "too technical" for the README. 
+The README should be something with a high-level overview and justify my use of certain processes/components. 
+This document will go into greater depth about the exact technical details of certain decisions and list more granular parts choices and their justifications.
 
 ## Main Components
 Excludes passives (Capacitors, diodes, etc.) and materials (PLA, aluminum, solder etc.)
